@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>APPLICTION FORM</h1>
+    <form>
+        <label>Name:</label><br>
+    <input type="name" name="Name"><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email"><br><br>
+
+    <label>phone:</label><br>
+    <input type="number" name="phone"><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" name="male" value="male">male
+    <input type="radio" name="female" value="female">female
+    <input type="radio" name="other" value="other">other<br><br>
+
+    <label>city:</label><br>
+    <select name="city">
+        <option>select</option>
+        <option value="kadapa">kadapa</option>
+        <option value="tirupathi">tirupathi</option>
+        <option value="raychoti">raychoti</option>
+    </select><br><br>
+
+    <label>Address</label><br>  
+    <textarea cols="50" rows="10"></textarea><br><br>
+
+    <label>Upload:</label><br>
+    <input type="file" name="Upload"><br><br>
+
+    <button><a href="next.html">Submit</a></button>
+    </form>
+</body>
+</html>
