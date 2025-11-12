@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: aqua;
+        }
+    </style>
+    <script>
+        function findDivisible() {
+            var n = document.getElementById("num").value;
+            for (var i = n; i >= 0; i--) {
+                if (i % 99 == 0) {
+                    document.getElementById("result").innerHTML =
+                        "The greatest number ≤ " + n + " divisible by 99 is " + i;
+                    break;
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Divisible by 99</h1>
+    <lable>Enter a Number:</lable>
+    <input type="number" id="num" placeholder="enter a number">
+    <button onclick="findDivisible()">find</button>
+    <p id="result"></p>
+</body>
+</html>
